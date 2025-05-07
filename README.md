@@ -15,7 +15,7 @@ This assignment demonstrates the principles of Object-Oriented Programming (OOP)
 
 #### Implementation
 The `superhero.py` file implements this activity:
-- A `Superhero` base class is defined with attributes like `name`, `alias`, `origin`, and `powers`.
+- A `Superhero` base class is defined with attributes like `name`, `alias`, `origin` and `powers`.
 - Methods include:
   - `show_powers()`: Displays the superhero's powers.
   - `activate_power()`: Activates a specific power.
@@ -30,12 +30,12 @@ The `superhero.py` file implements this activity:
 - **Objective**: Create a program that demonstrates polymorphism.
 - **Tasks**:
   1. Create a program that includes animals or vehicles with the same action (like `move()`).
-  2. Make each class define `move()` differently (e.g., `Car.move()` prints "Driving" , while `Plane.move()` prints "Flying" ).
+  2. Make each class define `move()` differently (e.g. `Car.move()` prints "Driving" , while `Plane.move()` prints "Flying" ).
 
 #### Implementation
 The `polymorphism.py` file implements this activity:
 - A base class `Animal` is defined with a `move()` method.
-- Subclasses like `Lion`, `Eagle`, `Elephant`, and `Snake` override the `move()` method to provide unique implementations.
+- Subclasses like `Lion`, `Eagle`, `Elephant` and `Snake` override the `move()` method to provide unique implementations.
 - The program demonstrates polymorphism by iterating through a list of animals and calling their `move()` methods.
 
 ---
